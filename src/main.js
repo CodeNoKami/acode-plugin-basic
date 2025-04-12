@@ -1,12 +1,10 @@
 import plugin from "../plugin.json";
 import styles from "./styles/style.scss";
 
-const settings = acode.require("settings");
-const sideBarApps = acode.require("sideBarApps");
 
 class CodeNoKami {
     async init() {
-      // plugin initialization
+        // plugin initialization
     }
 
     async destroy() {
