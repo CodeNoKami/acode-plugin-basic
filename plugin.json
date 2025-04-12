@@ -1,0 +1,18 @@
+{
+    "id": "acode.plugin.template",
+    "name": "Acode Plugin Template",
+    "main": "main.js",
+    "version": "1.0.0",
+    "readme": "readme.md",
+    "icon": "icon.png",
+    "files": [],
+    "minVersionCode": 290,
+    "license": "MIT",
+    "keywords": ["acode", "plugin", "plugin-template"],
+    "price": 0,
+    "author": {
+        "name": "CodeNoKami",
+        "email": "codenokami.dev@gmail.com",
+        "github": "CodeNoKami"
+    }
+}

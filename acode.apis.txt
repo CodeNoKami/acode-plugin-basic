@@ -1,0 +1,29 @@
+// Access and modify user-configurable settings like autosave, font size, etc.
+const settings = acode.require("settings");
+
+// Manage editor tabs, access the current editor, and interact with file contents
+const editorManager = acode.require("editorManager");
+
+// Perform file system operations such as read, write, delete, and create files/folders
+const fsOperation = acode.require("fsOperation");
+
+// Access application-wide settings like theme, autosave interval, etc.
+const appSettings = acode.require("appSettings");
+
+// Parse and handle file or folder URLs used in the editor
+const Url = acode.require("Url");
+
+// Utility functions like showing toast, confirm dialogs, etc.
+const helpers = acode.require("helpers");
+
+// Manage themes, add custom themes, or retrieve current theme data
+const themes = acode.require("themes");
+
+// Read from and write to the system clipboard
+const clipboard = acode.require("clipboard");
+
+// Constants used by Acode like file types, default values, etc.
+const constants = acode.require("constants");
+
+// Interface for interacting with the plugin system (e.g., list, enable, disable plugins)
+const plugin = acode.require("plugin");
